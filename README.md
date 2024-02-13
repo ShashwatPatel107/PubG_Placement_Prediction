@@ -39,4 +39,5 @@ V. Results and Hyperparameter Tuning:
 
 VI. Conclusion and Future Work:
 
+## CONCLUSION
 This project successfully predicted PUBG player placement using machine learning. Random Forest excelled, demonstrating AI's potential in the domain. Future refinements like hyperparameter tuning and feature engineering promise even better results. Ultimately, this work paves the way for novel PUBG analytics and improved gameplay experiences.
