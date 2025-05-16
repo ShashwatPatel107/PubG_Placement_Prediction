@@ -41,6 +41,7 @@ PubG_Placement_Prediction/
 ├── train_model.py        # Training script
 ├── predict.py            # Prediction script
 └── README.md             # Project documentation
+
 🧭 Development Process
 Acquired and explored PubG match dataset.
 
@@ -54,8 +55,12 @@ Evaluated model performance and fine-tuned hyperparameters.
 
 Generated predictions and validated results.
 
+
+
 🧪 Deployment
 Model deployment can be done by wrapping prediction scripts into an API (Flask, FastAPI) or integrating into a web application.
+
+
 
 🔭 Future Enhancements
 Expand feature set using external data sources
@@ -66,6 +71,8 @@ Build a user-friendly dashboard for real-time predictions
 
 Optimize model pipeline for faster inference
 
+
+
 👨‍💻 Author
 Shashwat Patel
 Data Analyst | Aspiring ML Engineer | Tech Enthusiast
@@ -73,11 +80,15 @@ Data Analyst | Aspiring ML Engineer | Tech Enthusiast
 🌐 LinkedIn
 💼 Portfolio
 
+
+
 📜 License
 This project is licensed under the MIT License. Feel free to use, modify, and distribute with attribution.
 
+
 🤝 Contributions
 Pull requests, feedback, and suggestions are welcome. Please fork and submit improvements.
+
 
 📌 Acknowledgments
 PubG gameplay dataset community
