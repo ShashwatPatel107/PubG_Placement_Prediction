@@ -1,4 +1,4 @@
-PubG Placement Prediction
+**PubG Placement Prediction
 A machine learning project to predict player rankings in PubG matches using historical gameplay data and feature engineering.
 
 🎯 Goal
@@ -40,7 +40,7 @@ PubG_Placement_Prediction/
 ├── requirements.txt      # Environment dependencies
 ├── train_model.py        # Training script
 ├── predict.py            # Prediction script
-└── README.md             # Project documentation
+└── README.md             # Project documentation**
 
 🧭 Development Process
 Acquired and explored PubG match dataset.
