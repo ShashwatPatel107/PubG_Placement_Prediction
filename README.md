@@ -1,43 +1,88 @@
-# PubG_Placement_Prediction
-Predict Final Finish Placement of Player in Game of PubG.
+PubG Placement Prediction
+A machine learning project to predict player rankings in PubG matches using historical gameplay data and feature engineering.
 
-## PURPOSE OF THE PROJECT
-This project aims to predict player placement in PUBG, the intense battle royale game. By crunching match data and deploying various machine learning algorithms, we'll unveil the key factors behind player success, build and compare predictive models, and ultimately crown the champion algorithm for accurately forecasting final rankings. Stay tuned as we navigate through data, train models, and declare the MVP in the arena of PUBG prediction!
+🎯 Goal
+To build and evaluate predictive models that accurately forecast player placement in PubG matches based on in-game statistics and behavior.
 
-## DATASET
-In this project I have selected PUBG Finish Placement Prediction dataset from [Kaggle Dataset](https://www.kaggle.com/competitions/pubg-finish-placement-prediction/overview)
+🔍 Overview
+This repository contains datasets, feature engineering scripts, and machine learning models focused on PubG player placement prediction. The analysis explores multiple regression and classification algorithms to find the best predictive accuracy.
 
+It serves as a hands-on example of applying data science and machine learning techniques to a competitive gaming dataset.
 
+🚀 Features
+📊 Data cleaning and feature engineering
 
-## OUTLINE
-I. Data Gathering:
-  * Download dataset fron Internet  using 'opendataset'
+🔄 Model training and hyperparameter tuning
 
-II. Exploratory Data Analysis (EDA):
-  * Read Dataset with Pandas
-  * Create Dataframe
-  * Clean raw data with Pandas
+📈 Performance evaluation using multiple metrics
 
-III. Feature Engineering and Pre Processing:
-  * Input / Target columns
-  * Split into Train-Test-Validation datasets
-  * Imputing
-  * Compute Scaling Parameters on the Training Set
-  * Scaling
-  * One Hot Encoding
-    
-IV. Model Training and Evaluation:
-  * Linear Regression
-  * Ridge Regression
-  * Lasso Regression
-  * Decision Tree
-  * Random Forest
-  * Gradient Boosting
-  * Suport Vector Machine
+🧪 Comparison of algorithms including Random Forest, XGBoost, and Linear Regression
 
-V. Results and Hyperparameter Tuning:
+📓 Jupyter Notebooks for exploratory analysis and modeling
 
-VI. Conclusion and Future Work:
+🧰 Tech Stack
+Component	Technology
+Programming	Python 3.x
+Data Handling	Pandas, NumPy
+Machine Learning	Scikit-learn, XGBoost
+Visualization	Matplotlib, Seaborn
+Environment	Jupyter Notebook
+Version Control	Git + GitHub
 
-## CONCLUSION
-This project successfully predicted PUBG player placement using machine learning. Random Forest excelled, demonstrating AI's potential in the domain. Future refinements like hyperparameter tuning and feature engineering promise even better results. Ultimately, this work paves the way for novel PUBG analytics and improved gameplay experiences.
+📁 Project Structure
+text
+Copy
+Edit
+PubG_Placement_Prediction/
+├── data/                 # Raw and processed datasets
+├── notebooks/            # EDA and modeling notebooks
+├── models/               # Saved trained models
+├── requirements.txt      # Environment dependencies
+├── train_model.py        # Training script
+├── predict.py            # Prediction script
+└── README.md             # Project documentation
+🧭 Development Process
+Acquired and explored PubG match dataset.
+
+Cleaned and preprocessed data.
+
+Engineered relevant features for prediction.
+
+Trained machine learning models.
+
+Evaluated model performance and fine-tuned hyperparameters.
+
+Generated predictions and validated results.
+
+🧪 Deployment
+Model deployment can be done by wrapping prediction scripts into an API (Flask, FastAPI) or integrating into a web application.
+
+🔭 Future Enhancements
+Expand feature set using external data sources
+
+Implement deep learning models for improved accuracy
+
+Build a user-friendly dashboard for real-time predictions
+
+Optimize model pipeline for faster inference
+
+👨‍💻 Author
+Shashwat Patel
+Data Analyst | Aspiring ML Engineer | Tech Enthusiast
+📍 Chicago, IL
+🌐 LinkedIn
+💼 Portfolio
+
+📜 License
+This project is licensed under the MIT License. Feel free to use, modify, and distribute with attribution.
+
+🤝 Contributions
+Pull requests, feedback, and suggestions are welcome. Please fork and submit improvements.
+
+📌 Acknowledgments
+PubG gameplay dataset community
+
+Open-source machine learning libraries
+
+Leveraging data science to master gaming performance.
+— Shashwat Patel
