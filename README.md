@@ -1,99 +1,121 @@
-**PubG Placement Prediction
-A machine learning project to predict player rankings in PubG matches using historical gameplay data and feature engineering.
+# PUBG Placement Prediction
 
-🎯 Goal
-To build and evaluate predictive models that accurately forecast player placement in PubG matches based on in-game statistics and behavior.
+> A complete machine learning pipeline project for predicting player placement in PUBG matches using real-world game data and statistical modeling techniques.
 
-🔍 Overview
-This repository contains datasets, feature engineering scripts, and machine learning models focused on PubG player placement prediction. The analysis explores multiple regression and classification algorithms to find the best predictive accuracy.
+## 🎯 Goal
 
-It serves as a hands-on example of applying data science and machine learning techniques to a competitive gaming dataset.
+To apply end-to-end data science processes — including data preprocessing, feature engineering, model training, and evaluation — to predict final player rankings in PUBG games based on match performance metrics.
 
-🚀 Features
-📊 Data cleaning and feature engineering
+---
 
-🔄 Model training and hyperparameter tuning
+## 🔍 Overview
 
-📈 Performance evaluation using multiple metrics
+This project explores the [PUBG Finish Placement Prediction](https://www.kaggle.com/competitions/pubg-finish-placement-prediction) Kaggle dataset to build a regression model capable of predicting a player's final rank percentage.
 
-🧪 Comparison of algorithms including Random Forest, XGBoost, and Linear Regression
+It demonstrates practical knowledge in:
 
-📓 Jupyter Notebooks for exploratory analysis and modeling
+* Exploratory data analysis (EDA)
+* Feature selection & engineering
+* Outlier handling
+* Model evaluation and tuning
 
-🧰 Tech Stack
-Component	Technology
-Programming	Python 3.x
-Data Handling	Pandas, NumPy
-Machine Learning	Scikit-learn, XGBoost
-Visualization	Matplotlib, Seaborn
-Environment	Jupyter Notebook
-Version Control	Git + GitHub
+---
 
-📁 Project Structure
-text
-Copy
-Edit
+## 🚀 Features
+
+* 📊 Exploratory Data Analysis with visualizations
+* 🔧 Feature Engineering for improved model learning
+* 🧹 Data Cleaning & Preprocessing pipelines
+* 📈 Model training using Linear Regression, XGBoost, Random Forest
+* 📉 Evaluation using metrics like RMSE and R² Score
+* 🧪 Cross-validation and Hyperparameter tuning
+* 📂 Modular and clean code structure
+
+---
+
+## 👷 Tech Stack
+
+| Category         | Technology            |
+| ---------------- | --------------------- |
+| Language         | Python                |
+| Data Analysis    | Pandas, NumPy         |
+| Visualization    | Matplotlib, Seaborn   |
+| Modeling         | Scikit-learn, XGBoost |
+| Notebook Runtime | Jupyter Notebooks     |
+| Version Control  | Git + GitHub          |
+
+---
+
+## 📁 Project Structure
+
+```text
 PubG_Placement_Prediction/
-├── data/                 # Raw and processed datasets
-├── notebooks/            # EDA and modeling notebooks
-├── models/               # Saved trained models
-├── requirements.txt      # Environment dependencies
-├── train_model.py        # Training script
-├── predict.py            # Prediction script
-└── README.md             # Project documentation**
+├── data/                # Raw and processed data files
+├── notebooks/           # EDA and modeling notebooks
+├── models/              # Saved models (optional)
+├── pubg_predict.py      # Main Python script for training/predicting
+├── utils.py             # Helper functions
+├── requirements.txt     # Environment dependencies
+└── README.md            # Project documentation
+```
 
-🧭 Development Process
-Acquired and explored PubG match dataset.
+---
 
-Cleaned and preprocessed data.
+## 🧭 Process Overview
 
-Engineered relevant features for prediction.
+1. Loaded and inspected the Kaggle dataset
+2. Performed univariate and multivariate EDA
+3. Engineered relevant features from raw gameplay stats
+4. Handled missing values and outliers
+5. Trained multiple regression models
+6. Evaluated and compared model performance
+7. Finalized best-performing model for predictions
 
-Trained machine learning models.
+---
 
-Evaluated model performance and fine-tuned hyperparameters.
+## 🔭 Future Enhancements
 
-Generated predictions and validated results.
+* Integrate Flask/Streamlit for model deployment as a web app
+* Create interactive dashboards using Plotly or Dash
+* Use more advanced algorithms like LightGBM or ensemble stacking
+* Optimize preprocessing using pipelines and `sklearn.compose`
+* Perform feature importance analysis for model explainability
 
+---
 
+## 🧑‍💼 Author
 
-🧪 Deployment
-Model deployment can be done by wrapping prediction scripts into an API (Flask, FastAPI) or integrating into a web application.
-
-
-
-🔭 Future Enhancements
-Expand feature set using external data sources
-
-Implement deep learning models for improved accuracy
-
-Build a user-friendly dashboard for real-time predictions
-
-Optimize model pipeline for faster inference
-
-
-
-👨‍💻 Author
-Shashwat Patel
+**Shashwat Patel**
 Data Analyst | Aspiring ML Engineer | Tech Enthusiast
 📍 Chicago, IL
-🌐 LinkedIn
-💼 Portfolio
+🌐 [LinkedIn](https://www.linkedin.com/in/shashwatpatel107/)
+💼 [Portfolio](https://shashwatpatel.netlify.app)
 
+---
 
+## 📜 License
 
-📜 License
-This project is licensed under the MIT License. Feel free to use, modify, and distribute with attribution.
+This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and distribute this project with attribution.
 
+---
 
-🤝 Contributions
-Pull requests, feedback, and suggestions are welcome. Please fork and submit improvements.
+## 🤝 Contributions
 
+Contributions, issues, and feature requests are welcome. Feel free to fork the repo and submit a pull request.
 
-📌 Acknowledgments
-PubG gameplay dataset community
+---
 
-Open-source machine learning libraries
+## 🔗 Resources
 
-Leveraging data science to master gaming performance.
-— Shashwat Patel
+* [Kaggle Dataset - PUBG Finish Placement](https://www.kaggle.com/competitions/pubg-finish-placement-prediction)
+* [Scikit-learn Documentation](https://scikit-learn.org/stable/)
+* [XGBoost Documentation](https://xgboost.readthedocs.io/)
+
+---
+
+## ✅ Conclusion
+
+This project combines core data science techniques with practical implementation to deliver accurate predictive insights using game telemetry.
+
+> Built with curiosity, data, and caffeine ☕
+> — *Shashwat Patel*
